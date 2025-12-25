@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #000;
+    text-align: center;
+}
+
+.dark {
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background: #ddd;
+    padding: 10px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+}
+
+.dark section {
+    background: #1e1e1e;
+}
+
+.profile-img {
+    width: 180px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.slider-img {
+    width: 300px;
+    height: 200px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+input, textarea {
+    width: 250px;
+    padding: 8px;
+    margin: 5px;
+}
+
+span {
+    color: red;
+    font-size: 14px;
+}
+
+footer {
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .slider-img {
+        width: 90%;
+        height: auto;
+    }
+}

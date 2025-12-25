@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Angati Bhuvan Karthik</h1>
+    <p>Interactive Portfolio Website</p>
+    <button id="modeBtn">Dark / Light Mode</button>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#sliderSection">Gallery</a>
+    <a href="#todo">To-Do</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <img id="profilePic"
+         src="https://media.licdn.com/dms/image/v2/D5603AQGPd6RHzuco9A/profile-displayphoto-shrink_200_200/B56ZdtU5WRHEAc-/0/1749885885687?e=2147483647&v=beta&t=iyHIsT10324tp2ar0A5nRfVv0YvRKLapTndzyv-_Afo"
+         alt="Profile Image of Angati Bhuvan Karthik"
+         class="profile-img">
+
+    <p>I am a Computer Science student interested in Web Development and JavaScript.</p>
+
+    <button id="togglePicBtn">Show / Hide Picture</button>
+</section>
+
+<section id="sliderSection">
+    <h2>Image Slider</h2>
+
+    <img id="slider"
+         class="slider-img"
+         src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+         alt="Slider Image">
+
+    <br>
+    <button id="prevBtn">Previous</button>
+    <button id="nextBtn">Next</button>
+</section>
+
+<section id="todo">
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter task">
+    <button id="addTaskBtn">Add Task</button>
+    <ul id="taskList"></ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Name">
+        <span id="nameError"></span><br>
+
+        <input type="email" id="email" placeholder="Email">
+        <span id="emailError"></span><br>
+
+        <textarea id="message" placeholder="Message"></textarea>
+        <span id="messageError"></span><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Angati Bhuvan Karthik</p>
+</footer>
+
+</body>
+</html>
